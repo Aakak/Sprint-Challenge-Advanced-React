@@ -2,7 +2,10 @@ import React from 'react';
 import axios from "axios";
 import PlayersData from "./Components/PlayersData";
 import Navbar from "./Components/Navbar";
+import useFetch from "./Hooks/useFetch";
 import './App.css';
+
+
 
 class App extends React.Component {
   constructor() {
